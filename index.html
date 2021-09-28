@@ -8,6 +8,49 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <table>
+        <thead>
+            <tr>
+                <td></td>
+                <th>Merk</th>
+                <th>Model</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>test</th>
+                <td>kolom 1 rij 1</td>
+                <td>kolom 2 rij 1</td>
+            </tr>
+            <tr>
+                <th>test</th>
+                <td>kolom 1 rij 2</td>
+                <td>kolom 2 rij 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="3">een voorbeeld tabel</th>
+        </tfoot>
+    </table>
+    <form action="mailto:97067883@st.deltion.nl" method="POST" >
+        <input type="text" name="Voornaam" placeholder="Voornaam" id="Voornaam">
+        <input type="text" name="Achternaam" placeholder="Achternaam" id="Achternaam">
+        <input type="text" name="Adres" placeholder="Adres" id="adres">
+        <input type="text" name="Postcode" placeholder="postcode" id="postcode"> 
+        <input type="text" name="Plaatsnaam" placeholder="Plaatsnaam" id="Plaatsnaam">       
+        <input type="date" name="Geboortedatum" placeholder="Geboortedatum" id="Geboortedatum">
+        <div>
+            <label for="Geslacht">Geslacht: </label>
+        </div>
+        <div>
+            <input type="radio" name="geslacht" id="Geslacht" value="Man">
+            <label for="Geslacht">Man</label>
+        </div>
+        <div>
+            <input type="radio" name="geslacht" id="Geslacht" value="Vrouw">
+            <label for="Geslacht">Vrouw</label>
+        </div>
+        <input id="submit" type="submit" value="Verstuur">
+    </form>
 </body>
 </html>
