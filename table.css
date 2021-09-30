@@ -1,0 +1,7 @@
+table, tr, td, th{
+    border: 2px solid rgb(221, 221, 221);
+    border-collapse: collapse;
+}
+img{
+    width: 150px;
+}

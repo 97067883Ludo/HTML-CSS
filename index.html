@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="form for email school">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
+
 <body>
-    <table>
-        <thead>
-            <tr>
-                <td></td>
-                <th>Merk</th>
-                <th>Model</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>test</th>
-                <td>kolom 1 rij 1</td>
-                <td>kolom 2 rij 1</td>
-            </tr>
-            <tr>
-                <th>test</th>
-                <td>kolom 1 rij 2</td>
-                <td>kolom 2 rij 2</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <th colspan="3">een voorbeeld tabel</th>
-        </tfoot>
-    </table>
-    <form action="mailto:97067883@st.deltion.nl" method="POST" >
-        <input type="text" name="Voornaam" placeholder="Voornaam" id="Voornaam">
-        <input type="text" name="Achternaam" placeholder="Achternaam" id="Achternaam">
-        <input type="text" name="Adres" placeholder="Adres" id="adres">
-        <input type="text" name="Postcode" placeholder="postcode" id="postcode"> 
-        <input type="text" name="Plaatsnaam" placeholder="Plaatsnaam" id="Plaatsnaam">       
-        <input type="date" name="Geboortedatum" placeholder="Geboortedatum" id="Geboortedatum">
-        <div>
-            <label for="Geslacht">Geslacht: </label>
+    <div id="form">
+        <div id="innerForm">
+            <h1>Contact From</h1>
+            <form action="mailto:97067883@st.deltion.nl" method="POST">
+                <div id="persoonlijke-info">
+                    <div id="Voornaam-placeholder">
+                        <label for="Voornaam">Voornaam:</label>
+                        <input type="text" maxlength="100" name="Voornaam" placeholder="Voornaam" id="Voornaam">
+                    </div>
+                    <div id="Achternaam-placeholder">
+                        <label for="Achternaam">Achternaam:</label>
+                        <input type="text" maxlength="100" name="Achternaam" placeholder="Achternaam" id="Achternaam">
+                    </div>
+                </div>
+                <div id="adres-gegevens">
+                    <div id="Adres-placeholder">
+                        <label for="Adres">Adres:</label>
+                        <input type="text" name="Adres" placeholder="Adres" id="Adres">
+                    </div>
+                    <div id="Postcode-placeholder">
+                        <label for="Postcode">Postcode:</label>
+                        <input type="text" maxlength="6" name="Postcode" placeholder="postcode" id="Postcode">
+                    </div>
+                    <div id="Plaatsnaam-placeholder">
+                        <label for="Plaatsnaam">Plaatsnaam:</label>
+                        <input type="text" name="Plaatsnaam" placeholder="Plaatsnaam" id="Plaatsnaam">
+                    </div>
+                    <div id="Geboortedatum-placeholder">
+                        <label for="Geboortedatum">Geboortedatum:</label>
+                        <input type="date" name="Geboortedatum" placeholder="Geboortedatum" id="Geboortedatum">
+                    </div>
+                </div>
+                <div id="Email-placeholder">
+                    <label for="Email">Email:</label>
+                    <input type="email" name="Email" placeholder="Email" id="Email">
+                </div>
+                <div id="Geslacht-placeholder">
+                    <div>
+                        <label for="Geslacht">Geslacht: </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="geslacht" id="Geslacht" value="Man">
+                        <label for="Geslacht">Man</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="geslacht" id="Geslacht" value="Vrouw">
+                        <label for="Geslacht">Vrouw</label>
+                    </div>
+                </div>
+                <div id="Opmerkingen-placeholder">
+                    <textarea name="Opmerkingen" id="Opmerkingen" maxlength="400"></textarea>
+                </div>
+                <div id="Verstuur-placeholder">
+                    <input id="submit" type="submit" value="Verstuur">
+                </div>
+            </form>
         </div>
-        <div>
-            <input type="radio" name="geslacht" id="Geslacht" value="Man">
-            <label for="Geslacht">Man</label>
-        </div>
-        <div>
-            <input type="radio" name="geslacht" id="Geslacht" value="Vrouw">
-            <label for="Geslacht">Vrouw</label>
-        </div>
-        <input id="submit" type="submit" value="Verstuur">
-    </form>
+    </div>
 </body>
 </html>

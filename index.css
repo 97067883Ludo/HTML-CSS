@@ -1,0 +1,50 @@
+html, body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url(/img/Background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+#persoonlijke-info{
+    display: flex;
+}
+#container{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+#innerForm{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+#form{
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: max-content;
+}
+form input,textarea{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .2);
+}
+form input,textarea:active{
+    outline-color: rgba(193, 2, 83, 1);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .2);
+}
+#Voornaam-placeholder, #Achternaam-placeholder, #Adres-placeholder, #Postcode-placeholder, #Plaatsnaam-placeholder, #Email-placeholder, #Geboortedatum-placeholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#Voornaam{
+    margin-right: 5px;
+}
