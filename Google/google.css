@@ -128,6 +128,18 @@ footer{
     text-decoration: none;
     color: rgb(0,0,0,0.87);
 }
-.last_section_right{
+.right_a_href{
     text-decoration: none;
+    color: rgb(0,0,0,0.87);
+    margin-left: 5px;
+}
+.last_section_right{
+    display: flex;
+    justify-items: flex-end;
+}
+.last_section_center{
+    display: flex;
+}
+.last_section_center {
+    justify-content: center;
 }
