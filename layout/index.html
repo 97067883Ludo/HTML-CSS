@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="layout.css">
-    <script src="js.js"></script>
+    <script src="Menu.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div id="mobile_nav">
+    <div onclick="closeMenu()" id="mobile_nav">
+        <h1 class="chross">X</h1>
         <a class="nav_item_selected" href="#">Home</a>
         <a class="nav_item" href="#">Shop</a>
         <a class="nav_item" href="#">Panel</a>
@@ -18,7 +19,7 @@
     </div>
     <nav>
         <div>
-        <a class="bur_nav" href="#"><img class="bur_nav" src="../img/burger_menu.png" alt="burger_menu"></a>
+        <a onclick="menu()" class="bur_nav" href="#"><img class="bur_nav" src="../img/burger_menu.png" alt="burger_menu"></a>
         </div>
         <div id="nav">
         <a class="nav_item_selected" href="#">Home</a>

@@ -107,6 +107,10 @@ footer{
 #mobile_nav{
     display: none;
 }
+.chross{
+    margin-left: 2%;
+    color: white;
+}
 @media only screen and (max-width: 855px){
     #nav{
         display: none;
@@ -141,6 +145,7 @@ footer{
     }
     #mobile_nav{
         left: 100%;
+        overflow-y: hidden;
         position: fixed;
         height: 100%;
         width: 100%;
