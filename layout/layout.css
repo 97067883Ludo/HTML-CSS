@@ -31,31 +31,20 @@ header{
 article{
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
     width: 100%;
     padding-bottom: 2%;
     height: fit-content;
     background-color: aqua;
 }
-article section{
-    width: 30%;
+article div{
+    width: 33%;
     display: flex;
     flex-direction: row;
     min-width: 15%;
 }
 .first_section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.second_section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.third_section{
-    width: 100%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,6 +106,9 @@ footer{
     #nav{
         display: none;
     }
+    .first_section{
+        width: 100%;
+    }
     .nav_item{
         margin-bottom: 1%;
         margin-left: 2%;
@@ -166,7 +158,7 @@ footer{
     article{
         flex-direction: column;
     }
-    article section{
+    article{
         width: 100%;
     } 
 
