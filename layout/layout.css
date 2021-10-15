@@ -7,6 +7,10 @@ html, body{
     width: 100%;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+h1{
+    position: absolute;
 }
 nav{
     display: flex;
@@ -14,7 +18,7 @@ nav{
     align-items: center;
     width: 100%;
     height: 5%;
-    background-color: aqua;
+    background-color: black;
     margin-bottom: .2%;
     min-width: fit-content;
 }
@@ -22,11 +26,17 @@ header{
     display: flex;
     width: 100%;
     height: 60%;
-    background-color: aqua;
+    background-color: black;
     margin-bottom: .2%;
     align-items: center;
     justify-content: center;
     color: white;
+}
+video{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
 }
 article{
     display: flex;
@@ -35,7 +45,7 @@ article{
     width: 100%;
     padding-bottom: 2%;
     height: fit-content;
-    background-color: aqua;
+    background-color: black;
 }
 article div{
     width: 33%;
@@ -44,6 +54,7 @@ article div{
     min-width: 15%;
 }
 .first_section{
+    color: white;
     width: 33%;
     display: flex;
     flex-direction: column;
@@ -53,13 +64,7 @@ footer{
     margin-top: .2%;
     height: 23.8%;
     width: 100%;
-    background-color: aqua;
-}
-.nav_items{
-    width: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: black;
 }
 .nav_item{
     margin-left: 2%;
@@ -69,6 +74,8 @@ footer{
     padding: .5%;
     border-radius: 10px;
     transition:  300ms;
+    opacity: .8;
+    border: 2px solid black;
 }
 .nav_item_selected{
     margin-left: 2%;
@@ -100,6 +107,9 @@ footer{
 .chross{
     cursor: pointer;
     margin-left: 2%;
+    color: white;
+}
+.h1_footer{
     color: white;
 }
 @media only screen and (max-width: 855px){
