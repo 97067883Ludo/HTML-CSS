@@ -6,7 +6,6 @@
 body, html {
     height: 100%;
     width: 100%;
-    display: flex;
 }
 
 body{
@@ -89,19 +88,17 @@ header{
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
-    border: 1px solid black;
+    border: 2px solid #f2f2f2;
     border-radius: 25px;
 }
 .searchButton{
     width: 125px;
-    height: 36;
     border: none;
     background-color: #f8f9fa;
     cursor: pointer;
 }
 .searchGuess{
     width: 125px;
-    height: 36;
     border: none;
     background-color: #f8f9fa;
     cursor: pointer;  
