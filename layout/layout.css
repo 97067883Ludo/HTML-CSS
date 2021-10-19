@@ -53,12 +53,16 @@ article div{
     flex-direction: row;
     min-width: 15%;
 }
-.first_section{
+.first_section, .first_section_Contact{
     color: white;
     width: 33%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
 }
 footer{
     margin-top: .2%;
