@@ -92,12 +92,17 @@ header{
     border-radius: 25px;
 }
 .searchButton{
+    height: 30px;
+    margin-bottom: 10px;
     width: 125px;
     border: none;
     background-color: #f8f9fa;
     cursor: pointer;
 }
 .searchGuess{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 30px;
     width: 125px;
     border: none;
     background-color: #f8f9fa;
@@ -120,6 +125,7 @@ footer{
 .last_section_footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .left_a_href{
     text-decoration: none;
